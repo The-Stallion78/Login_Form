@@ -2,7 +2,12 @@
 @import url("form.css");
 
 
-body {
+.container{
     display: flex;
+    width: 650px;
+    height: 600px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 300px;
 }
 
