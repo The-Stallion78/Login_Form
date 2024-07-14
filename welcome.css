@@ -37,12 +37,12 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     #welcome-img {
-        width: 100%;
+        width: 60%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     #welcome-img {
-        width: 100%;
+        width: 50%;
     }
 }
