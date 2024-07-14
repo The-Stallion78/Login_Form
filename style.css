@@ -2,16 +2,6 @@
 @import url("form.css");
 
 
-.container{
-    display: flex;
-    width: 650px;
-    height: 600px;
-    border: 2px solid black;
-    margin-top: 40px;
-    /* margin-left: 300px; */
-    justify-content: center;
-}
-
 @media only screen and (max-width: 599px) {
     /* CSS rules for screens smaller than 600px */
     .container{
