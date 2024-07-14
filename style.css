@@ -1,76 +1,64 @@
 @import url("welcome.css");
 @import url("form.css");
 
-
 .container{
     display: flex;
     width: 650px;
     height: 600px;
     border: 2px solid black;
     margin-top: 40px;
-    /* margin-left: 300px; */
     justify-content: center;
 }
 
 @media only screen and (max-width: 599px) {
     /* CSS rules for screens smaller than 600px */
     .container{
-        display: flex;
-        width: 650px;
-        height: 600px;
-        border: 2px solid black;
-        margin-top: 40px;
-        /* margin-left: 300px; */
-        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        border: 1px solid black;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
     .container{
-        display: flex;
-        width: 650px;
-        height: 600px;
-        border: 2px solid black;
-        margin-top: 40px;
-        /* margin-left: 300px; */
-        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-top: 30px;
+        border: 1px solid black;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .container{
-        display: flex;
-        width: 650px;
-        height: 600px;
-        border: 2px solid black;
-        margin-top: 40px;
-        /* margin-left: 300px; */
-        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        height: auto;
+        margin-top: 30px;
+        border: 1px solid black;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     /* CSS rules for screens between 992px and 1199px */
     .container{
-        display: flex;
-        width: 650px;
-        height: 600px;
-        border: 2px solid black;
+        flex-direction: row;
+        width: 60%;
+        height: auto;
         margin-top: 40px;
-        /* margin-left: 300px; */
-        justify-content: center;
+        border: 2px solid black;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     /* CSS rules for screens 1200px and up */
     .container{
-    display: flex;
-    width: 650px;
-    height: 600px;
-    border: 2px solid black;
-    margin-top: 40px;
-    /* margin-left: 300px; */
-    justify-content: center;
-}
+        flex-direction: row;
+        width: 650px;
+        height: 600px;
+        border: 2px solid black;
+        margin-top: 40px;
+    }
 }
